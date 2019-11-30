@@ -1,0 +1,17 @@
+{
+  "name": "svelte-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "app:build": "rollup -c --config ./js/config/rollup.config.js",
+    "app:dev": "rollup -c -w --config ./js/config/rollup.config.js"
+  },
+  "devDependencies": {
+    "rollup": "^1.12.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  }
+}
